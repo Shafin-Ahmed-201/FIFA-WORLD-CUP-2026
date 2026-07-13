@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* common styles */
+.container{
+    padding: 7px 20px;
+}
+.common-btn{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #E8BA2E;
+    cursor: pointer;
+}
+.common-btn:hover{
+color: white;
+}
+/* nav styles */
+.nav-content-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-content-box ul{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;    
+}
+.nav-content-box ul li{
+    list-style: none;
+    padding-left: 40px;
+}
+.nav-content-box ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* hero styles */
+.hero-root{
+    background-image: url('./image/Background.png');
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 7px;
+    border-radius: 5px;
+}
+.hero-content{
+    height: 786px;
+    margin-left: 40px;
+    padding-top: 230px;
+}
+.hero-content h1{
+    font-weight: 700;
+    font-size: 88px;
+    color: white;
+}
+.hero-content p{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/* Tickets sold styles */
+.sold-root{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4C430;
+    padding: 30px;
+    margin: 7px;
+}
+.sold-root h1{
+    font-size: 72px;
+}
+.sold-root p{
+    color: rgb(92, 86, 86);
+}
+/* Explore cities styles */
+.explore-content{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 40px 150px;
+}
+.explore-root h1{
+    font-size: 56px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+}
+.venue-btn{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 30px;
+}
+.explore-content div h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.explore-content div ul{
+    padding: 17px;
+    color: rgb(97, 89, 89);
+}
+.explore-content div p{
+    color: rgb(97, 89, 89);
+    margin-top: 15px;
+}
+.newyork-img{
+    width: 450px;
+    height: 301px;
+    border-radius: 16px;
+}
