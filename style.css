@@ -113,3 +113,46 @@ padding: 40px 150px;
     height: 301px;
     border-radius: 16px;
 }
+
+/* Table styles */
+.matches{
+    background-color: #eee7e7;
+    padding: 12px;
+    margin: 0px 80px;
+    border-radius: 7px;
+    margin-top: 70px;
+}
+.matches h1{
+    margin-top: 15px;
+}
+.matches p{
+    margin: 12px 0px;
+}
+.date{
+    color: #BA1A1A;
+}
+.opening{
+    color: #F60000;
+}
+.final{
+    color: #E8BA2E;
+}
+.table-root thead tr th{
+    border: 1px solid black;
+    background-color: #A73131;
+    color: aliceblue;
+    padding: 16px 24px;
+    
+}
+.table-root tbody tr td{
+    border: 1px solid black;
+    padding: 16.5px 24px;
+}
+.table-root{
+     width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+
+}
