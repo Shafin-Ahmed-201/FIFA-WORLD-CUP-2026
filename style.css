@@ -116,7 +116,7 @@ padding: 40px 150px;
 
 /* Table styles */
 .matches{
-    background-color: #eee7e7;
+    background-color: #f8fafc;
     padding: 12px;
     margin: 0px 80px;
     border-radius: 7px;
@@ -155,4 +155,378 @@ padding: 40px 150px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
 
+}
+
+/* AI Styles */
+
+/* =========================
+   AI MATCH INSIGHTS
+========================= */
+
+.ai-section {
+  width: 92%;
+  max-width: 1050px;
+  margin: 45px auto 55px;
+  padding: 42px;
+  background: #f8fafc;
+  border: 1px solid #e3e7ec;
+  border-radius: 12px;
+}
+
+/* Heading */
+
+.ai-heading {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.ai-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #fff0f0;
+  color: #d71920;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.ai-heading h2 {
+  margin: 10px 0 6px;
+  font-size: 28px;
+  color: #171717;
+}
+
+.ai-heading p {
+  margin: 0;
+  color: #777;
+  font-size: 13px;
+}
+
+
+/* Main content */
+
+.ai-content {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 20px;
+}
+
+
+/* Prediction Card */
+
+.prediction-card {
+  background: #ffffff;
+  border: 1px solid #e4e6e9;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.small-title {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #999;
+}
+
+.card-top h3 {
+  margin: 7px 0 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.card-top h3 span {
+  color: #aaa;
+  font-weight: 400;
+}
+
+.ai-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d71920;
+  color: white;
+  font-size: 18px;
+}
+
+
+/* Teams */
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.team {
+  text-align: center;
+}
+
+.team-logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  margin: auto;
+}
+
+.canada {
+  background: #d71920;
+}
+
+.honduras {
+  background: #1976d2;
+}
+
+.team h4 {
+  margin: 8px 0 0;
+  font-size: 12px;
+}
+
+.prediction-score {
+  text-align: center;
+}
+
+.prediction-score strong {
+  display: block;
+  font-size: 27px;
+  color: #222;
+}
+
+.prediction-score span {
+  font-size: 9px;
+  color: #999;
+}
+
+
+/* Probability */
+
+.probability-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 7px;
+}
+
+.probability-head strong {
+  color: #d71920;
+}
+
+.progress {
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 68%;
+  height: 100%;
+  background: #d71920;
+  border-radius: 10px;
+}
+
+.probability-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  font-size: 9px;
+  color: #999;
+}
+
+
+/* Insight Card */
+
+.insight-card {
+  background: #171717;
+  color: white;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.insight-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.insight-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d71920;
+  color: white;
+}
+
+.insight-header .small-title {
+  color: #aaa;
+}
+
+.insight-header h3 {
+  margin: 4px 0 0;
+  font-size: 17px;
+}
+
+.insight-card > p {
+  color: #c4c4c4;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 22px 0;
+}
+
+
+/* Key Points */
+
+.key-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.key-points > div {
+  background: #242424;
+  padding: 12px;
+  border-radius: 7px;
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+}
+
+.key-points span {
+  font-size: 15px;
+}
+
+.key-points p {
+  margin: 0;
+  color: #aaa;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.key-points strong {
+  color: white;
+  font-size: 10px;
+}
+
+
+/* Footer */
+
+.ai-footer {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #e1e4e8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ai-footer p {
+  margin: 0;
+  color: #999;
+  font-size: 9px;
+}
+
+.ai-footer button {
+  border: none;
+  background: #d71920;
+  color: white;
+  padding: 10px 17px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ai-footer button:hover {
+  background: #b9151b;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+  .ai-section {
+    width: 88%;
+    padding: 25px;
+  }
+
+  .ai-content {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-footer {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .teams {
+    gap: 10px;
+  }
+
+  .key-points {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-heading h2 {
+    font-size: 23px;
+  }
+
+}
+
+/* Footer Styles */
+.footer-root{
+    background-color: black;
+    height: 281px;
+}
+.logo-link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 90px;
+
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.footer-text-left{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-text-right{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-dot{
+    color: #203F30;
 }
