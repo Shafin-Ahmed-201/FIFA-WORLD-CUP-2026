@@ -139,3 +139,13 @@ Predicted score:
 
 ```text
 2 - 1
+```
+## 📖 Description
+
+The FIFA World Cup 2026 Landing Page is a modern and visually engaging static website built using **HTML5 and CSS3**. The project is inspired by the FIFA World Cup 2026 and presents tournament-related information through a clean, organized, and responsive interface.
+
+The website includes a **navigation bar, hero section, tournament statistics, host cities, match schedule, AI Match Insights, social media links, and footer section**. It uses modern CSS techniques such as **Flexbox, CSS Grid, background images, positioning, responsive layouts, tables, gradients, and hover effects** to create an attractive sports-themed design.
+
+The AI Match Insights section adds an interactive-style presentation of match predictions, including predicted scores, win probabilities, key factors, and players to watch.
+
+This project was created to practice **semantic HTML structure, modern CSS layouts, responsive web design, reusable section organization, and creating visually appealing landing pages without using external frameworks**.
